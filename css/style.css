@@ -233,7 +233,25 @@ p {
 .cd-section.boxes header {
   background-color: #7C4857;
 }
+.cd-section.starter header {
+  background-color: #7C4857;
+}
+.cd-section.weekly header {
+  background-color: #7C4857;
+}
+.cd-section.monthly header {
+  background-color: #7C4857;
+}
 .cd-section.recipes header {
+  background-color: #445880;
+}
+.cd-section.breakfast header {
+  background-color: #445880;
+}
+.cd-section.lunch header {
+  background-color: #445880;
+}
+.cd-section.dessert header {
   background-color: #445880;
 }
 .cd-section.account header {
@@ -508,7 +526,25 @@ p {
 #cd-loading-bar.boxes {
   background-color: #7C4857;
 }
+#cd-loading-bar.starter {
+  background-color: #7C4857;
+}
+#cd-loading-bar.weekly {
+  background-color: #7C4857;
+}
+#cd-loading-bar.monthly {
+  background-color: #7C4857;
+}
 #cd-loading-bar.recipes {
+  background-color: #445880;
+}
+#cd-loading-bar.breakfast {
+  background-color: #445880;
+}
+#cd-loading-bar.lunch {
+  background-color: #445880;
+}
+#cd-loading-bar.dessert {
   background-color: #445880;
 }
 #cd-loading-bar.account {
