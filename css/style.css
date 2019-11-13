@@ -37,8 +37,11 @@ h4 {
 }
 
 h5 {
-  font-size: 1em; 
-  line-height: 1em;
+  font-family:'mrs-eaves-xl-serif', 'Cormorant Upright', serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 6em;
+  line-height: 1.1em;;
 }
 
 h6 {
@@ -423,12 +426,12 @@ p {
 .cd-quote {
   font-family:'mrs-eaves-xl-serif', 'Cormorant Upright', serif;
   font-size: 1em;
+  margin: 0 auto;
   position: relative;
-  top: 200px;
-  left: 400px;
-  margin-bottom: 9px;
+  top: 40%;
+  left: 0%;
   text-align: center;
-  display: block;
+  align-content: center;
   color: #ffffff;
   max-width: 400px;
 }
