@@ -32,16 +32,16 @@ h4 {
   font-family:'mrs-eaves-xl-serif', 'Cormorant Upright', serif;
   font-weight: 800;
   font-style: italic;
-  font-size: 2.5em;
-  line-height: 1.3em;
+  font-size: 6em;
+  line-height: 1.1em;;
 }
 
 h5 {
   font-family:'mrs-eaves-xl-serif', 'Cormorant Upright', serif;
   font-weight: 800;
   font-style: italic;
-  font-size: 6em;
-  line-height: 1.1em;;
+  font-size: 2.5em;
+  line-height: 1.3em;
 }
 
 h6 {
@@ -65,14 +65,12 @@ p {
 /* NAVIGATION */
 .cd-side-navigation {
   position: fixed;
-  /* z-index: 3;
+  z-index: 3;
   top: 0;
   left: 0;
   height: 100vh;
-  width: 74px; */
+  width: 74px;
   overflow: hidden;
-  flex: grid;
-  align-content: center;
 }
 .cd-side-navigation::before {
   /* background color of the side navigation */
@@ -398,13 +396,19 @@ p {
   -moz-transition: -moz-transform 0s 0.5s, opacity 0s 0.5s;
   transition: transform 0s 0.5s, opacity 0s 0.5s;
 }
-.cd-title h2 {
-  font-size: 10em;
-  font-weight: 700;
-  margin-bottom: 10px;
+.cd-title h1 {
+  font-size: 7.5em;
+  margin-bottom: -30px;
   max-width: 500px;
   text-align: center;
   display: inline-block;
+}
+.cd-title h2 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
 }
 .cd-title span {
   opacity: 0.6;
