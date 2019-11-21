@@ -395,7 +395,7 @@ p {
   -webkit-transition: -webkit-transform 0s 0.5s, opacity 0s 0.5s;
   -moz-transition: -moz-transform 0s 0.5s, opacity 0s 0.5s;
   transition: transform 0s 0.5s, opacity 0s 0.5s;
-  -webkit-animation: fadein 2s;
+  -webkit-animation: title 5s;
 }
 .cd-title h1 {
   font-size: 7.5em;
@@ -442,17 +442,32 @@ p {
   color: #ffffff;
   max-width: 400px;
 
-  -webkit-animation: fadein 2s;
+  -webkit-animation: quote 5s;
+}
+/* KEYFRAMES FOR FADE */
+@keyframes quote {
+  0% { opacity: 0; }
+  100%   { opacity: 1; }
 }
 
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+/* KEYFRAMES TITLE */
+@keyframes title {
+  0% {
+    font-size: 5px;
+  }
+  30% {
+    font-size: 13px;
+  }
+  100% {
+    font-size: 10px;
+  }
 }
+
 
 .cd-content {
   padding: 3em 0;
   background-color: #ffffff;
+  margin-left: -70px;
 }
 .cd-content p {
   width: 100%;
@@ -464,6 +479,10 @@ p {
   font-size: 1.5em;
   line-height: 1.5;
   color: #000000;
+}
+.boxes-content {
+  align-content: center;
+  text-align: center;
 }
 @media only screen and (min-width: 768px) {
   .cd-content {
@@ -519,7 +538,7 @@ p {
   position: fixed;
   bottom: 0;
   left: 50%;
-  -webkit-animation: fadein 5s;
+  -webkit-animation: quote 5s;
 }
 /* LOADING BAR */
 #cd-loading-bar {
