@@ -518,9 +518,9 @@ p {
 }
 .cd-starter {
   position: fixed;
-  max-width: 30%;
-  top: 20%;
-  left: 55%;
+  max-width: 50%;
+  top: 40%;
+  left: 25%;
 }
 .cd-starter p {
   margin-bottom: 1.5em;;
