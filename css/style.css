@@ -1,3 +1,26 @@
+body {
+  /* background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F); */
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 
+@media (max-width: 767px) {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.example:: -webkit-scrollbar {
+  display: none;
+} 
+.example {
+  -ms-overflows-style: none;
+
+*/
+
 html {
   font-size: 62.5%;
 }
@@ -232,12 +255,20 @@ p {
   position: relative;
   height: 100vh;
   width: 100%;
+<<<<<<< HEAD
+  background: #223e26;
+=======
   background: #785e91;
+>>>>>>> 6ee24518fe761844e09ab9306683c3a95fdfdab1
   overflow: hidden;
   text-align: center;
   display: inline-block;
 }
+<<<<<<< HEAD
+.cd-section.boxes header {
+=======
 .cd-section.boxes {
+>>>>>>> 6ee24518fe761844e09ab9306683c3a95fdfdab1
   background-color: #7c4857;
 }
 .cd-section.starter header {
@@ -263,9 +294,12 @@ p {
 }
 .cd-section.account header {
   background-color: #223e26;
+<<<<<<< HEAD
+=======
 }
 .cd-section.account {
   background: #223e26;
+>>>>>>> 6ee24518fe761844e09ab9306683c3a95fdfdab1
 }
 .cd-section .cd-scroll {
   /* this is the arrow at the bottom of the header */
@@ -840,6 +874,8 @@ button::after {
 .container .info span .fa {
   color: #ef3b3a;
 }
+<<<<<<< HEAD
+=======
 body {
   /* background: -webkit-linear-gradient(right, #76b852, #8DC26F);
   background: -moz-linear-gradient(right, #76b852, #8DC26F);
@@ -849,3 +885,4 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+>>>>>>> 6ee24518fe761844e09ab9306683c3a95fdfdab1
