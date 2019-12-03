@@ -1,26 +1,3 @@
-body {
-  /* background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-  background: -moz-linear-gradient(right, #76b852, #8DC26F);
-  background: -o-linear-gradient(right, #76b852, #8DC26F);
-  background: linear-gradient(to left, #76b852, #8DC26F); */
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-/* 
-@media (max-width: 767px) {
-  overflow-y: hidden;
-  overflow-x: hidden;
-}
-
-.example:: -webkit-scrollbar {
-  display: none;
-} 
-.example {
-  -ms-overflows-style: none;
-
-*/
-
 html {
   font-size: 62.5%;
 }
@@ -509,7 +486,7 @@ p {
 }
 
 @keyframes TITLE */
-/* @keyframes title {
+@keyframes title {
   0% {
     font-size: 5px;
   }
@@ -547,7 +524,7 @@ p {
 }
 /* END SMALL SCREENS ONLY */
 /* ---------------------- */
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .cd-content {
     padding: 4em 0;
   }
@@ -559,7 +536,7 @@ p {
     line-height: 1.5;
     font-size: 1.em;
   }
-} */
+}
 .cd-subpage {
   position: relative;
   height: 100%;
@@ -692,7 +669,7 @@ a {
   border: 1px solid;
   font: inherit;
   margin: 0.2em;
-  padding: 0 2em 0 2em;
+  padding: .5em 1.5em .5em 1.5em;
   font-family: "mrs-eaves-xl-serif", "Cormorant Upright", serif;
   font-size: 2em;
   position: relative;
