@@ -69,7 +69,7 @@ p {
   top: 0;
   left: 0;
   height: 100vh;
-  width: 74px;
+  width: 85px;
   overflow: hidden;
 }
 .cd-side-navigation::before {
@@ -179,9 +179,12 @@ p {
   .cd-side-navigation {
     height: auto;
     width: 100%;
+    padding-right: 1em;
   }
   .cd-side-navigation ul {
     display: flex;
+    margin-top: 1em;
+    margin-bottom: -1.5em;
   }
 }
 /* END SMALL SCREENS ONLY */
@@ -327,6 +330,7 @@ p {
 @media (max-width: 767px) {
   .cd-section {
     padding-left: 0;
+    overflow: hidden;
     font-size: 0.8em;
   }
 }
@@ -395,7 +399,6 @@ p {
   width: 100%;
   text-align: center;
   display: inline-block;
-  padding: 1em;
   color: #ffffff;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -653,7 +656,6 @@ p {
   border: 1px solid;
   font: inherit;
   margin: 0.2em;
-  padding: 0 2em 0 2em;
   font-family: "mrs-eaves-xl-serif", "Cormorant Upright", serif;
   font-size: 2em;
   position: relative;
