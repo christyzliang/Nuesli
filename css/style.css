@@ -531,10 +531,31 @@ p {
 }
 .fruits {
   position: fixed;
-  bottom: 0;
-  left: 50%;
+  top: 60%;
+  left: 30%;
   -webkit-animation: quote 5s;
 }
+.box-img {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  -webkit-animation: quote 5s;
+}
+/* BEGIN SMALL SCREENS ONLY */
+/* -- IMAGE STYLE -- */
+@media (max-width: 767px) {
+  .fruits {
+    bottom: 0;
+    left: 45%;
+  }
+  .box-img {
+    top: 10%;
+    left: 5%;
+  }
+}
+/* END SMALL SCREENS ONLY */
+/* ---------------------- */
+
 /* LOADING BAR */
 #cd-loading-bar {
   position: fixed;
