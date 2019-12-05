@@ -194,7 +194,7 @@ p {
 .cd-section.overflow-hidden {
   overflow: hidden;
 }
-.cd-section header {
+.cd-section .header {
   position: relative;
   height: 100vh;
   width: 100%;
@@ -203,31 +203,31 @@ p {
   text-align: center;
   display: inline-block;
 }
-.cd-section.boxes header {
+.cd-section.boxes .header {
   background-color: #7c4857;
 }
-.cd-section.starter header {
+.cd-section.starter .header {
   background-color: #7c4857;
 }
-.cd-section.weekly header {
+.cd-section.weekly .header {
   background-color: #7c4857;
 }
-.cd-section.monthly header {
+.cd-section.monthly .header {
   background-color: #7c4857;
 }
-.cd-section.recipes header {
+.cd-section.recipes .header {
   background-color: #445880;
 }
-.cd-section.breakfast header {
+.cd-section.breakfast .header {
   background-color: #445880;
 }
-.cd-section.lunch header {
+.cd-section.lunch .header {
   background-color: #445880;
 }
-.cd-section.dessert header {
+.cd-section.dessert .header {
   background-color: #445880;
 }
-.cd-section.account header {
+.cd-section.account .header {
   background-color: #223e26;
 }
 .cd-section .cd-scroll {
