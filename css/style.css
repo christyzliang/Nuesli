@@ -292,27 +292,12 @@ p {
 /* -- CD SECTION STYLES -- */
 @media (max-width: 767px) {
   .cd-section {
-    padding-left: 0;
+    padding-left: 0px;
     overflow: hidden;
-    font-size: 0.8em;
-    margin-top: 7em;
-  }
-  .cd-scroll {
-    margin-bottom: 3em;
   }
 }
 /* END SMALL SCREENS ONLY */
 /* ---------------------- */
-
-/* @media only screen and (min-width: 480px) {
-  .cd-section {
-    padding-left: 90px;
-  }
-  .cd-section .cd-scroll {
-    left: -webkit-calc(50vw - (94px - 4px)/2);
-    left: calc(50vw - (94px - 4px)/2);
-  }
-} */
 
 @-webkit-keyframes cd-scroll-down {
   0% {
@@ -493,10 +478,6 @@ p {
 /* BEGIN SMALL SCREENS ONLY */
 /* -- CD SECTION STYLES -- */
 @media (max-width: 767px) {
-}
-/* END SMALL SCREENS ONLY */
-/* ---------------------- */
-@media only screen and (min-width: 768px) {
   .cd-content {
     padding: 4em 0;
   }
@@ -506,9 +487,11 @@ p {
     font-style: normal;
     font-size: 1.5em;
     line-height: 1.5;
-    font-size: 1.em;
   }
 }
+/* END SMALL SCREENS ONLY */
+/* ---------------------- */
+
 .cd-subpage {
   position: relative;
   height: 100%;
@@ -607,16 +590,11 @@ p {
 /* -- CD SECTION STYLES -- */
 @media (max-width: 767px) {
   #cd-loading-bar {
-    left: 0;
+    left: 0px;
   }
 }
 /* END SMALL SCREENS ONLY */
 /* ---------------------- */
-/* @media only screen and (min-width: 480px) {
-  #cd-loading-bar {
-    left: 90px;
-  }
-} */
 
 /* BUTTON */
 .btn-grp button a {
