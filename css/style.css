@@ -68,6 +68,24 @@ img {
   height: auto;
 }
 
+/* TWO LOGOS */
+.logo-small {
+  display: block;
+}
+
+.logo-large {
+  display: none;
+}
+@media (min-width: 768px) {
+  .logo-small {
+    display: none;
+  }
+  
+  .logo-large {
+    display: block;
+  }
+}
+
 /* NAVIGATION */
 .cd-side-navigation {
   position: fixed;
@@ -839,23 +857,5 @@ button::after {
 }
 .container .info span .fa {
   color: #ef3b3a;
-}
-
-/* TWO LOGOS */
-.logo-small {
-  display: block;
-}
-
-.logo-large {
-  display: none;
-}
-@media (min-width: 768px) {
-  .logo-small {
-    display: none;
-  }
-  
-  .logo-large {
-    display: block;
-  }
 }
 
