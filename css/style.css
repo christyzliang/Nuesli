@@ -62,6 +62,12 @@ p {
   display: inline-block;
 }
 
+/* MEDIA */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* NAVIGATION */
 .cd-side-navigation {
   position: fixed;
@@ -69,8 +75,9 @@ p {
   top: 0;
   left: 0;
   height: 100vh;
-  width: 85px;
+  width: 65px;
   overflow: hidden;
+  padding: 10px;
 }
 .cd-side-navigation::before {
   /* background color of the side navigation */
@@ -87,6 +94,9 @@ p {
   height: 100%;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .cd-side-navigation li {
   width: -webkit-calc(100% - 4px);
@@ -142,12 +152,24 @@ p {
   .cd-side-navigation {
     height: auto;
     width: 100%;
-    padding-right: 1em;
+    padding: 1em;
   }
   .cd-side-navigation ul {
     display: flex;
-    margin-top: 1em;
-    margin-bottom: -1.5em;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+    /* margin-top: 1em; */
+    /* margin-bottom: -1.5em; */
+  }
+  /* .cd-side-navigation li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  } */
+  .cd-side-navigation img {
+    max-height: 50px;
   }
 }
 /* END SMALL SCREENS ONLY */
@@ -541,8 +563,8 @@ p {
   -webkit-animation: quote 5s;
 }
 .box-img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 30%;
+  /* max-height: 100%; */
   position: fixed;
   top: 10%;
   left: 10%;
@@ -818,3 +840,22 @@ button::after {
 .container .info span .fa {
   color: #ef3b3a;
 }
+
+/* TWO LOGOS */
+.logo-small {
+  display: block;
+}
+
+.logo-large {
+  display: none;
+}
+@media (min-width: 768px) {
+  .logo-small {
+    display: none;
+  }
+  
+  .logo-large {
+    display: block;
+  }
+}
+
