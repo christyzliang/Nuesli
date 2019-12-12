@@ -175,17 +175,7 @@ img {
   .cd-side-navigation ul {
     display: flex;
     flex-direction: row;
-    /* align-items: center;
-    justify-content: center; */
-    /* margin-top: 1em; */
-    /* margin-bottom: -1.5em; */
   }
-  /* .cd-side-navigation li a {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  } */
   .cd-side-navigation img {
     max-height: 50px;
   }
@@ -471,6 +461,7 @@ img {
 
   -webkit-animation: quote 5s;
 }
+
 /* KEYFRAMES FOR FADE */
 @keyframes quote {
   0% {
@@ -485,7 +476,7 @@ img {
 @keyframes title {
   0% {
     position: absolute;
-    top: -5em;
+    top: -60em;
     opacity: 0;
   }
   75% {
